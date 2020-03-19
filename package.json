@@ -1,0 +1,33 @@
+{
+  "name": "egg-validator-next",
+  "version": "1.0.1",
+  "description": "next validate plugin for egg",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sundb/egg-validator-next.git"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "validate"
+  ],
+  "author": "sundbcn@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sundb/egg-validator-next/issues"
+  },
+  "homepage": "https://github.com/sundb/egg-validator-next#readme",
+  "dependencies": {
+    "async-validator": "^3.2.4",
+    "lodash": "^4.17.15"
+  },
+  "files": [
+    "app",
+    "config"
+  ]
+}
